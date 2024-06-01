@@ -1,0 +1,19 @@
+# create a web page with 16*16 grid of square divs.
+1. create a div container
+2. inside container , create 16 rows;
+3. inside each row, create 16 squares;
+4. config css style:
+  container :
+  display: flex;
+  flex-direction: column;
+  content-justify: space-around;
+
+
+  row :
+  display: flex;
+  content-justify: space-around;
+
+  square:
+  width: 20px;
+  height: 20px;
+  border: 1px;
